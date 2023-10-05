@@ -9,8 +9,8 @@ int main()
     do
     {
         printf("i = %d\n", i);
-        i = i + 1;              // Alternatively, write i++;
-    } while (i < 5);            //Repeat if condition is met
+       i = i - 1;              // Alternatively, write i++;
+    } while (i >= 0);            //Repeat if condition is met
 
     printf("Finished: i = %d\n", i);
 }
